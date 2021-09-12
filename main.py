@@ -12,8 +12,8 @@ tqdm.pandas(desc="my bar!")
 
 def main():
     embedding = WordEmbeddings("glove")
-    sentence_1 = Sentence("") # add your sentences here
-    sentence_2 = Sentence("")
+    sentence_1 = Sentence("This is a very good news!") # add your sentences here
+    sentence_2 = Sentence("This is such as bad news :(")
     use_gpu = torch.cuda.is_available()
     num_episode = 16000
     frame_size = 1000
