@@ -5,7 +5,6 @@ from matplotlib import pyplot as plt
 from flair.embeddings import WordEmbeddings
 from tqdm import tqdm
 import multiprocessing as mp
-from sklearn.preprocessing import read_images
 from prototypicalNet import PrototypicalNet, train_step, test_step, load_weights
 
 tqdm.pandas(desc="my bar!")
